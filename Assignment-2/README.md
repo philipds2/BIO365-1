@@ -44,6 +44,14 @@ Read the instructions carefully for each problem listed below. For each of the p
 
 13. Please write a function called `repeatYourself` that accepts two arguments: 1) a string and 2) an integer. Your function *should* use a `for` loop to print the first value as many times as indicated by the integer (each on a separate line).
 
+### Testing your code
+
+Let's say you want to test the 5.R script that you just created using the test script that I have provided for that problem (Tests/5.R). You can do this at the command line using the following command:
+
+Rscript Tests/5.R
+
+Then you can check to see whether your output is the same as the expected output.
+
 ### Submitting the assignment
 
 After you complete the problems, *commit* and *push* your answers to GitHub. You can commit your code using the following three commands (replace `<message>` with an actual message):
