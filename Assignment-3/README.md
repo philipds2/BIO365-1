@@ -8,6 +8,18 @@ Please go to the `BIO365` repository that you created for the previous assignmen
 
 Read the instructions carefully for each problem listed below. For each of the problems, you should write an R script called `X.R`, but replace `X` with the problem number. For example, for problem 1, the R script would be named `1.R`.
 
+Some of these problems require that you use the `stringr` package. To install that package, you can use the following R code:
+
+```
+install.packages("stringr")
+```
+
+Then if you want to use this package, you would first import it using the following R code:
+
+```
+library(stringr)
+```
+
 ### Problem Descriptions
 
 *Please let me know if you see any errors in these problem descriptions or in the expected outputs. Thanks!*
