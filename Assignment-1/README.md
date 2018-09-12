@@ -93,7 +93,9 @@ print(bioinformatics + is + for + cool + people)
 
 Let's say you want to test the 5.R script that you just created using the test script that I have provided for that problem (Tests/5.R). You can do this at the command line using the following command:
 
+```
 Rscript Tests/5.R
+```
 
 Then you can check to see whether your output is the same as the expected output.
 
