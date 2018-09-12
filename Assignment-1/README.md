@@ -89,6 +89,14 @@ print(bioinformatics + is + for + cool + people)
 
 10. Suppose you are working in a research laboratory with E. coli (bacteria) that grow in culture. As you keep the bacteria in proper growth conditions, they multiply at a rate of 20% each day. Suppose that other scientists in the same laboratory are working with other types of bacteria, and these grow at different rates than the E. coli. Please write a function that allows researchers to predict the size of their bacterial population after 3 days. This function should be called `predictPopulationGrowth` and should accept three arguments: 1) the name of the bacterial species, 2) the number of bacteria at the beginning of the experiment, and 3) the growth rate per day. This function should calculate the expected growth after 3 days. This number should be rounded to the nearest whole number and converted to an integer value. Your function should return a statement such as: `After 3 days, there will be 16345 E. coli`.
 
+### Testing your code
+
+Let's say you want to test the 5.R script that you just created using the test script that I have provided for that problem (Tests/5.R). You can do this at the command line using the following command:
+
+Rscript Tests/5.R
+
+Then you can check to see whether your output is the same as the expected output.
+
 ### Submitting the assignment
 
 After you complete the problems, *commit* your answers to your forked repository on GitHub. You can commit your code using the following three commands (replace `<message>` with an actual message):
