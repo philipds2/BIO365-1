@@ -51,10 +51,10 @@ Please use R code to answer the following questions. Use the `dplyr` package whe
 
 After you complete the problems, *commit* and *push* your answers to GitHub. You can commit your code using the following three commands (replace `<message>` with an actual message):
 
-``
+```
 git add --all
 git commit -m "<message>"
 git push origin master
-``
+```
 
 After committing your solutions, make sure they show up properly on GitHub. You don't need to submit anything via Learning Suite for this assignment.
