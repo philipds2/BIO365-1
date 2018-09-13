@@ -1,0 +1,14 @@
+# A tibble: 142 x 4
+   country        `1952`   `2007` growth
+   <chr>           <dbl>    <dbl>  <dbl>
+ 1 Kuwait         160000  2505559  15.7 
+ 2 Jordan         607914  6053193   9.96
+ 3 Djibouti        63149   496374   7.86
+ 4 Saudi Arabia  4005677 27601038   6.89
+ 5 Oman           507833  3204897   6.31
+ 6 Cote d'Ivoire 2977019 18013409   6.05
+ 7 Gambia         284320  1688359   5.94
+ 8 Libya         1019729  6036914   5.92
+ 9 Bahrain        120447   708573   5.88
+10 Kenya         6464046 35610177   5.51
+# ... with 132 more rows

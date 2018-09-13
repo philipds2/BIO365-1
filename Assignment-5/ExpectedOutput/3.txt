@@ -1,0 +1,14 @@
+# A tibble: 624 x 7
+   country          year      pop continent lifeExp gdpPercap econMetric
+   <chr>           <int>    <dbl> <chr>       <dbl>     <dbl>      <dbl>
+ 1 Congo Dem. Rep.  2002 55379852 Africa       45.0      241.       5.36
+ 2 Congo Dem. Rep.  2007 64606759 Africa       46.5      278.       5.97
+ 3 Lesotho          1952   748747 Africa       42.1      299.       7.09
+ 4 Congo Dem. Rep.  1997 47798986 Africa       42.6      312.       7.33
+ 5 Lesotho          1957   813338 Africa       45.0      336.       7.46
+ 6 Zimbabwe         1952  3080907 Africa       48.5      407.       8.40
+ 7 Burundi          1962  2961915 Africa       42.0      355.       8.45
+ 8 Lesotho          1962   893143 Africa       47.7      412.       8.62
+ 9 Burundi          2007  8390505 Africa       49.6      430.       8.67
+10 Burundi          1952  2445618 Africa       39.0      339.       8.69
+# ... with 614 more rows
