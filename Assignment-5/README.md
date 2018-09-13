@@ -35,9 +35,13 @@ Please use R code to answer the following questions. Use the `dplyr` package whe
 6. The populations of which 10 countries grew the most between 1952 and 2007? Because population sizes vary so much from one country to another, divide the 2007 value by the 1952 number when calculating growth. (Print the country name in the first column, 1952 population in the second column, 2007 population in the third column, and growth in the fourth column. Sort by the growth column.) Hints:
 
     a. Create a tibble with data for 1952. Keep only the `country` and `pop` columns. Rename the `pop` column to `1952`.
+
     b. Create a tibble with data for 2007. Keep only the `country` and `pop` columns. Rename the `pop` column to `2007`.
+    
     c. Join these tables based on country.
+    
     d. Add a column that divides the 2007 values by the 1952 values.
+    
     e. Sort the results and print.
 
 7. Suppose you wished to improve the readability of the data. Rename the column names so that each column name starts with a capital letter, spell out the words, and put underscores between words: Country, Year, Population, Continent, Life_Expectancy, GDP_Per_Capita. Then print the first 10 rows of the tibble (make sure all columns are printed).
