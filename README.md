@@ -2,7 +2,7 @@
 
 Each directory in this repository contains instructions for completing an assignment. Please view the README.md files in these directories for instructions on completing and submitting these assignments.
 
-Suppose you would like to compare the output of your code against the expected output, you can do this with the `CheckOutput.py` script provided in this repository. Below is an example of how you would do this for problem 1 of Assignment-1.
+Suppose you would like to compare the output of your code against the expected output, you can do this with the `CheckOutput.py` script provided in this repository. Below is an example of how you would do this for problem 1 of Assignment-1. (These instructions should work on a UNIX-based system. If you are using a Windows computer, you might consider completing these assignments on the Supercomputer.)
 
 ```
 cd Assignment-1
