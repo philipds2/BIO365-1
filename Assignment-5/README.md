@@ -12,7 +12,7 @@ Please go to the `BIO365` repository that you created for a previous assignment.
 
 For this assignment, you will analyze a data file that has been provided by [GapMinder](http://www.gapminder.org). Specifically, you will analyze a file called `gapminder-FiveYearData.csv`, which is stored in this directory. This comma-delimited file indicates life expectancy and GDP per capita for 142 countries over the past few decades. To analyze the data, you will need to load it into R. R provides various functions that make it possible to read data files. For example, to read a CSV file, you can use the `read.csv` or `read.table` functions, which are built into R. However, these functions are a bit cumbersome to use. Instead I recommend that you use the `read_csv` function in the `readr` package. The following code illustrates how you would read this file using the `read_csv` function in that package. (First you need to install the `readr` package on your system.)
 
-```{r}
+```
 library(readr)
 
 data <- read_csv("gapminder-FiveYearData.csv")
