@@ -50,7 +50,7 @@ Please use R code to do/answer the following questions.
 
 5. Start with the objects you created for problems 4-5. Although debatable, `swabsOfInterestCounts` is not yet tidy. Use the `gather` function (`tidyr` package) to transform the taxa columns into two columns that represent the OTU and the counts per OTU. The names of these columns should be `otu` and `count`. Store the result in an object called `gatheredCounts`. This data frame should also contain a column called `swab.id`. **Please print `gatheredCounts`** (using default print settings).
 
-6. Start with the objects you created for problems 4-6. Using `gatheredCounts`, calculate the number of counts per OTU. Use the `group_by` and `summarise` functions for this. Store the result in an object called `summarizedCounts`. Hint: you will need to use the `sum` function within `summarize`. **Please print `summarizedCounts` (using default print settings).**
+6. Start with the objects you created for problems 4-6. Using `gatheredCounts`, calculate the number of counts per OTU. Use the `group_by` and `summarise` functions for this. Store the result in an object called `summarizedCounts`. Hint: you will need to use the `sum` function within `summarize`. **Please print `summarizedCounts`** (using default print settings).
 
 7. Start with the objects you created for problems 4-7. Use the `inner_join` function to merge `summarizedCounts` with the `taxa` object. Assign the result to an object called `taxaSummary`. Hint: By default, this function tries to identify column names that are common between the two data frames being merged. Because these objects do not have two columns with the same name, you can use the `by` parameter to specify which columns should be used. **Please print `taxaSummary`** (using default print settings).
 
@@ -76,10 +76,10 @@ hurricanes <- tribble(
 
 After you complete the problems, *commit* and *push* your answers to GitHub. You can commit your code using the following three commands (replace `<message>` with an actual message):
 
-`
+```
 git add --all
 git commit -m "<message>"
 git push origin master
-`
+```
 
 After committing your solutions, make sure they show up properly on GitHub. You don't need to submit anything via Learning Suite for this assignment.
