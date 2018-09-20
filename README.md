@@ -8,7 +8,7 @@ Each directory in this repository contains instructions for completing an assign
 
 Suppose you would like to compare the output of your code for Assignment-2 against the expected output for that assignment. First you would clone my repository to your local computer. **Put it in a location that is completely separate from your code.**
 
-Suppose you wished to store my repository on your computer at `/home/user/BIO365_Instruction`. You would execute the following commands at the command line.
+Suppose you wished to store my repository on your computer at `/home/user/BIO365_Instructor`. You would execute the following commands at the command line.
 
 ```
 cd /home/user
