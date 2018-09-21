@@ -56,7 +56,7 @@ Please use R code to do/answer the following questions.
 
 8. Start with the objects you created for problems 4-8. Sort `taxaSummary` by the `count` column in **descending** order. Assign the result to an object called `sortedTaxaSummary`. Use the `head` function to reassign this object so that it contains only the first row of data. **Then print `sortedTaxaSummary`** to indicate the kingdom, phylum, and class of the OTU that had the highest count (using default print settings).
 
-9. Apply the `separate` function to the `counts` object. Split the `swab.id` column into three columns. The first column should be called `swabType` and should indicate the type of swab ("Swab"). The second column should be called `swabGroup` and should indicate the group number in each swab ID ("162"). The third column should be called `swabNumber` and should indicate the unique number associated with each swab (for example, "02", "03", or "04"). **Print this tibble**  (using default print settings).
+9. Apply the `separate` function to the `swabs` object. Split the `swab.id` column into three columns. The first column should be called `swabType` and should indicate the type of swab ("Swab"). The second column should be called `swabGroup` and should indicate the group number in each swab ID ("162"). The third column should be called `swabNumber` and should indicate the unique number associated with each swab (for example, "02", "03", or "04"). **Print this tibble**  (using default print settings).
 
 10. Below is some code that creates a tibble. This dataset is not tidy because each observation is spread across two rows. Use the `spread` function in `tidyr` to make the data "tidy". **Print the tidy version of the data** (using default print settings).
 
