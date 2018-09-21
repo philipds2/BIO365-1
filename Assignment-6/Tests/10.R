@@ -1,1 +1,1 @@
-source("10.R")
+suppressPackageStartupMessages(suppressWarnings(suppressMessages(source("10.R"))))

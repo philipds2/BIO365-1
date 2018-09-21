@@ -1,1 +1,1 @@
-source("2.R")
+suppressPackageStartupMessages(suppressWarnings(suppressMessages(source("2.R"))))
