@@ -1,4 +1,4 @@
-source("5.R")
+suppressPackageStartupMessages(suppressWarnings(suppressMessages(source("5.R"))))
 
 gurdon = "An important problem in embryology is whether the differentiation of cells depends upon a stable restriction of the genetic information contained in their nuclei. The technique of nuclear transplantation has shown to what extent the nuclei of differentiating cells can promote the formation of different cell types (e.g. King & Briggs, 1956; Gurdon, 1960c). Yet no experiments have so far been published on the transplantation of nuclei from fully differentiated normal cells. This is partly because it is difficult to obtain meaningful results from such experiments. The small amount of cytoplasm in differentiated cells renders their nuclei susceptible to damage through exposure to the saline medium, and this makes it difficult to assess the significance of the abnormalities resulting from their transplantation. It is, however, very desirable to know the developmental capacity of such nuclei, since any nuclear changes which are necessarily involved in cellular differentiation must have already taken place in cells of this kind.
 

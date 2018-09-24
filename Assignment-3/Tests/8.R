@@ -1,4 +1,4 @@
-source("8.R")
+suppressPackageStartupMessages(suppressWarnings(suppressMessages(source("8.R"))))
 
 print(findSSR("ATACGCGATGC"))
 print(findSSR("ATACGATATATCG"))

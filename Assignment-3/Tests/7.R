@@ -1,4 +1,4 @@
-source("7.R")
+suppressPackageStartupMessages(suppressWarnings(suppressMessages(source("7.R"))))
 
 chromsomalDNA = "ACTTAATTTACCAGGAGCTAGGGACCATTACACGTGGATCGAAAGGCGCATTA"
 restrictionSite1 = "AGGGACC"
