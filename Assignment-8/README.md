@@ -30,7 +30,7 @@ graphics.off()
 
 Please use R code to answer the following questions. **Your graphics should match the expected output exactly.** You may need to look at the documentation in R to specify the settings described below.
 
-1. A study by Miller, et al. compared the survival of two kinds of rainbow trout fry (babies): those born in a hatchery and those born in the wild. They released 4000 hatchery fry and 4000 wild fry into a stream that flows into Lake Superior. After one year, the researchers collected data on as many of these trout as they could. You can access the data here: http://whitlockschluter.zoology.ubc.ca/wp-content/data/chapter02/chap02q05FrySurvival.csv. Your code should download this data file, load it into R, and create a bar chart that illustrates the number of each type of trout that survived. You'll want to create a contingency table and pass that into the `barplot` function. Set the x-axis label to "Source". Set the y-axis label to "Number of fry survived".
+1. A study by Miller, et al. compared the survival of two kinds of rainbow trout fry (babies): those born in a hatchery and those born in the wild. They released 4000 hatchery fry and 4000 wild fry into a stream that flows into Lake Superior. After one year, the researchers collected data on as many of these trout as they could. You can access the data here: http://whitlockschluter.zoology.ubc.ca/wp-content/data/chapter02/chap02q05FrySurvival.csv. Your code should download this data file, load it into R, and create a bar chart that illustrates the number of each type of trout that survived. You'll want to create a contingency table (see the `table` function) and pass that into the `barplot` function. Set the x-axis label to "Source". Set the y-axis label to "Number of fry survived".
 
 2. Using the data described in the previous problem, make a "grouped" bar chart that shows the number of "not caught" fish side by side with those that survived. You can see an example of how to create this type of chart [here](https://www.statmethods.net/graphs/bar.html). Set the x-axis label to "Outcome". Set the y-axis label to "Number of fry". Set the bar colors to blue and orange, respectively. Include a row legend.
 
@@ -53,3 +53,4 @@ git push origin master
 ```
 
 After committing your solutions, make sure they show up properly on GitHub. You don't need to submit anything via Learning Suite for this assignment.
+x
