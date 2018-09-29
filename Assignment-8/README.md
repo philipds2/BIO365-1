@@ -16,7 +16,7 @@ For this assignment, you will work with data and problems derived from *The Anal
 
 In completing this assignment, you may benefit from various packages in the *tidyverse*, including `readr`, `tidyr`, and `dplyr` (load the `tidyverse` library at the top of each script). There is a package in the `tidyverse` for making graphics; it is called `ggplot2`. However, **for now I would like you to use the the base R functions for making graphics**.
 
-For each of problem, create a graph and save it to a PDF file. The following example illustrates how to do this. First, it generates a vector of random numbers. Then it opens a connection to a PDF file with a specific name (you would replace `<problemNum>` with the actual problem number). The `hist` function then creates a histogram of the data. Finally, the `graphics.off()` function closes the connection to the PDF file.
+For each problem, create a graph and save it to a PDF file. The following example illustrates how to do this. First, it generates a vector of random numbers. Then it opens a connection to a PDF file with a specific name (you would replace `<problemNum>` with the actual problem number). The `hist` function then creates a histogram of the data. Finally, the `graphics.off()` function closes the connection to the PDF file.
 
 ```
 data = rnorm(1000)
