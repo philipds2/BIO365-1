@@ -91,6 +91,22 @@ ggplot(locationData) +
 
 *Write a comment in your code that describes what you interpret about core and transient species after seeing the map.*
 
+### Checking your answers
+
+If you would like to check whether your PDF files are exactly the same as the expected output files, you can use a tool called [ImageMagick](https://imagemagick.org/script/index.php). This program can be installed on UNIX-based and Windows-based systems. You can install it on your local computer if you want. It is also installed on the Supercomputer. To use it on the Supercomputer, you would load the software with this command: `module load imagemagick`. The following instructions apply to UNIX-based systems, but it should be similar on Windows-based systems.
+
+Once you have ImageMagick installed/loaded, you would execute a command such as the following at the command line (replacing `<problemNum>` with the actual problem number):
+
+```
+compare -metric rmse /home/user/BIO365_Instructor/Assignment-9/ExpectedOutput/<problemNum>.pdf <problemNum>.pdf null
+```
+
+If the files are identical, this command will output the following (which indicates there are zero differences):
+
+```
+0 (0)
+```
+
 ### Submitting the assignment
 
 After you complete the problems, *commit* and *push* your answers to GitHub. You can commit your code using the following three commands (replace `<message>` with an actual message):

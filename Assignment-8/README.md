@@ -30,7 +30,7 @@ graphics.off()
 
 Please use R code to answer the following questions. **Your graphics should match the expected output exactly.** You may need to look at the documentation in R to specify the settings described below.
 
-1. A study by Miller, et al. compared the survival of two kinds of rainbow trout fry (babies): those born in a hatchery and those born in the wild. They released 4000 hatchery fry and 4000 wild fry into a stream that flows into Lake Superior. After one year, the researchers collected data on as many of these trout as they could. You can access the data here: http://whitlockschluter.zoology.ubc.ca/wp-content/data/chapter02/chap02q05FrySurvival.csv. Your code should download this data file, load it into R, and create a bar chart that illustrates the number of each type of trout that survived. You'll want to create a contingency table (see the `table` function) and pass that into the `barplot` function. Set the x-axis label to "Source". Set the y-axis label to "Number of fry survived".
+1. A study by Miller, et al. compared the survival of two kinds of rainbow trout fry (babies): those born in a hatchery and those born in the wild. They released 4000 hatchery fry and 4000 wild fry into a stream that flows into Lake Superior. After one year, the researchers collected data on as many of these trout as they could. You can access the data here: http://whitlockschluter.zoology.ubc.ca/wp-content/data/chapter02/chap02q05FrySurvival.csv. Your code should download this data file (use the `read_csv` function and specify the URL as the file name), load it into R, and create a bar chart that illustrates the number of each type of trout that survived. You'll want to create a contingency table (see the `table` function) and pass that into the `barplot` function. Set the x-axis label to "Source". Set the y-axis label to "Number of fry survived".
 
 2. Using the data described in the previous problem, make a "grouped" bar chart that shows the number of "not caught" fish side by side with those that survived. You can see an example of how to create this type of chart [here](https://www.statmethods.net/graphs/bar.html). Set the x-axis label to "Outcome". Set the y-axis label to "Number of fry". Set the bar colors to blue and orange, respectively. Include a row legend.
 
@@ -39,6 +39,24 @@ Please use R code to answer the following questions. **Your graphics should matc
 4. Using the same data as the previous problem, create a box plot that illustrates the anemones' response times for the two repetitions side by side. Set the labels underneath the boxes to "Response 1" and "Response 2", respectively. Set the title to "Startle responses in sea anemones". Set the y-axis limits so they range between zero and the maximum response time across all observations. Set the y-axis label to "Response time (seconds)". Set the colors of the boxes to "blue" and "red".
 
 5. Using the same data as the previous problem, create a scatterplot that illustrates the relationship between the first set of response times and the second set of response times. (Hint: Use the `plot` function.) Set the x-axis label to "Response 1" and the y-axis label to "Response 2". Set the title to "Startle responses in sea anemones". Set the x-axis and y-axis limits so they range between zero and the maximum response time across all observations.
+
+### Checking your answers
+
+If you would like to check whether your PDF files are exactly the same as the expected output files, you can use a tool called [ImageMagick](https://imagemagick.org/script/index.php). This program can be installed on UNIX-based and Windows-based systems. You can install it on your local computer if you want. It is also installed on the Supercomputer. To use it on the Supercomputer, you would load the software with this command: `module load imagemagick`. The following instructions apply to UNIX-based systems, but it should be similar on Windows-based systems.
+
+Once you have ImageMagick installed/loaded, you would execute a command such as the following at the command line (replacing `<problemNum>` with the actual problem number):
+
+```
+compare -metric rmse /home/user/BIO365_Instructor/Assignment-8/ExpectedOutput/<problemNum>.pdf <problemNum>.pdf null
+```
+
+If the files are identical, this command will output the following (which indicates there are zero differences):
+
+```
+0 (0)
+```
+
+If the files are **not** identical, the command will output something else (which hopefully will help you see what the differences are).
 
 ### Submitting the assignment
 
