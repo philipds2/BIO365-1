@@ -1,4 +1,4 @@
-# BIO 365 - Assignment 10
+# BIO 365 - Assignment 11
 
 ### Introduction
 
@@ -12,11 +12,11 @@ Please go to the `BIO365` repository that you created for a previous assignment.
 
 **This repository contains no expected outputs for this assignment.** You just need to print your answers.
 
-You **can** use R built-in functions (such as `mean` or `sd` for this assignment).
+You **can** use R built-in functions (such as `mean` or `sd`) for this assignment.
 
 ### Problem Descriptions
 
-The first 4 problems are based on Assignment Problem #18 in Chapter 4 of *The Analysis of Biological Data - 2nd Edition*. *Amorphophallus johnsonii* is a plan growing in West Africa, and it is better known as a "corpseflower." Its common name comes from the fact that when it flowers, it gives off a "powerful aroma of rotting fish and faeces" (Beath 1996). The flowers smell this way because their principal pollinators are carrion beetles, who are attracted to such a smell. Beath (1996) observed the number of carrion beetles (*Phaeochrous amplus*) that arrive per night to flowers of this species. You can download the data they observed from here: http://whitlockschluter.zoology.ubc.ca/wp-content/data/chapter04/chap04q18Corpseflowers.csv. In your R scripts, please use the `read_csv` function (tidyverse) to read this file into a `tibble` object. You can specify the above URL instead of a file name when you invoke `read_csv`. Please use R code to answer the following.
+The first 4 problems are based on Assignment Problem #18 in Chapter 4 of *The Analysis of Biological Data - 2nd Edition*. *Amorphophallus johnsonii* is a plant growing in West Africa, and it is better known as a "corpseflower." Its common name comes from the fact that when it flowers, it gives off a "powerful aroma of rotting fish and faeces" (Beath 1996). The flowers smell this way because their principal pollinators are carrion beetles, who are attracted to such a smell. Beath (1996) observed the number of carrion beetles (*Phaeochrous amplus*) that arrive per night to flowers of this species. You can download the data they observed from here: http://whitlockschluter.zoology.ubc.ca/wp-content/data/chapter04/chap04q18Corpseflowers.csv. In your R scripts, please use the `read_csv` function (tidyverse) to read this file into a `tibble` object. You can specify the above URL instead of a file name when you invoke `read_csv`. Please use R code to answer the following.
 
 1. What is the mean number of beetles per flower? Please print your answer (rounded to 1 decimal place).
 
