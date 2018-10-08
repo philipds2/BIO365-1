@@ -84,8 +84,7 @@ all_states <- map_data("state")
 
 ggplot(locationData) + 
   geom_polygon(data=all_states, aes(x=long, y=lat, group = group), colour="black", fill="white") + 
-  expand_limits(x = all_states$Longitude, y = all_states$Latitude) + 
-  coord_map()
+  expand_limits(x = all_states$Longitude, y = all_states$Latitude)
   # Add your code here...
 ```
 
