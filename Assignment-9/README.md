@@ -92,7 +92,7 @@ ggplot(locationData) +
 
 ### Checking your answers
 
-If you would like to check whether your PDF files are exactly the same as the expected output files, you can use a tool called [ImageMagick](https://imagemagick.org/script/index.php). This program can be installed on UNIX-based and Windows-based systems. You can install it on your local computer if you want. It is also installed on the Supercomputer. To use it on the Supercomputer, you would load the software with this command: `module load imagemagick`. The following instructions apply to UNIX-based systems, but it should be similar on Windows-based systems.
+If you would like to check whether your PDF files are exactly the same as the expected output files, you can use a tool called [ImageMagick](https://imagemagick.org/script/index.php). This program can be installed on UNIX-based and Windows-based systems. You can install it on your local computer if you want. It is also installed on the Supercomputer. To use it on the Supercomputer, you would load the software with this command: `module load imagemagick/7.0`. The following instructions apply to UNIX-based systems, but it should be similar on Windows-based systems.
 
 Once you have ImageMagick installed/loaded, you would execute a command such as the following at the command line (replacing `<problemNum>` with the actual problem number):
 
@@ -105,6 +105,8 @@ If the files are identical, this command will output the following (which indica
 ```
 0 (0)
 ```
+
+If the files are **not** identical, the command will output something else (which hopefully will help you see what the differences are). (You may need to hit Control-C after entering the above command.)
 
 ### Submitting the assignment
 
