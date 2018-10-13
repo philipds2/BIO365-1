@@ -1,4 +1,4 @@
-source("6.R")
+suppressPackageStartupMessages(suppressWarnings(suppressMessages(source("6.R"))))
 
 numVector1 = 1:50
 numVector2 = rep(c(1:5), 50)
