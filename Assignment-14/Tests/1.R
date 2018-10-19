@@ -1,5 +1,5 @@
 source("1.R")
 
 print(calcBinomP(3, 5, 0.2))
-print(calcBinomP(250, 500, 0.5))
-print(calcBinomP(2500, 5000, 0.5))
+print(calcBinomP(10, 20, 0.3))
+print(calcBinomP(20, 40, 0.5))
