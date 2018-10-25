@@ -28,8 +28,6 @@ These questions are derived from *The Analysis of Biological Data - 2nd Edition*
 
 7. Please use [this dataset](https://vincentarelbundock.github.io/Rdatasets/csv/boot/manaus.csv) for this problem. You can read more about the data [here](https://stat.ethz.ch/R-manual/R-devel/library/boot/html/manaus.html). The numbers in the `value` column represent monthly averages of the height) of the Rio Negro river near Manaus, Brazil over much of the 20th century. Use `ggplot2` to create a histogram of these heights and save it to a PDF called `7.pdf`. Make sure to use appropriate axis labels and a descriptive title.
 
-8. Use the same data as the previous problem. Use `ggplot2` to create a [quantile-quantile plot]() that illustrates how well the data fit the normal distribution. Save the plot to a PDF called `8.pdf`. Write a comment in your code that indicates whether you believe the data fit the normal distribution and why.
-
 ### Submitting the assignment
 
 After you complete the problems, *commit* and *push* your answers to GitHub. You can commit your code using the following three commands (replace `<message>` with an actual message):
