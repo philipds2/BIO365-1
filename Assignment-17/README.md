@@ -14,7 +14,7 @@ Please go to the `BIO365` Git repository you created for a previous assignment. 
 
 These questions are derived from *The Analysis of Biological Data - 2nd Edition*. Please use R code to answer the following.
 
-1. Please write a function called `standardize` that accepts one argument: a vector of numerical values. Your function should convert the data points to Z scores and return the mean and standard deviation of those Z scores.
+1. Please write a function called `standardize` that accepts one argument: a vector of numerical values. Your function should convert the data points to Z scores and return a vector that contains the mean and standard deviation of those Z scores.
 
 2. Please write a function called `getPGreater` that accepts two arguments: 1) a vector of numerical values and 2) a single numerical value. Calculate the probability that a value **larger than** the 2nd value would occur by random chance, assuming that the data follow a normal distribution. Please return this value.
 
