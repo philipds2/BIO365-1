@@ -42,4 +42,4 @@ After committing your solutions, make sure they show up properly on GitHub. You 
 
 ### Checking your assignment
 
-You can use [this site](http://bonsai.byu.edu:9000) to check your code after you have committed it to GitHub. It will tell you whether your code matches the expected output. Let me know if you encounter any problems as you use this site. **This site is only available from BYU campus.**
+You can use [this site](http://bonsai.byu.edu:9000) to check your code after you have committed it to GitHub. It will tell you whether your code produces output that matches the expected output. Let me know if you encounter any problems as you use this site. **This site is only available from BYU campus.**
