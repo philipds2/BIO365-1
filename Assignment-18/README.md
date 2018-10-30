@@ -4,7 +4,7 @@
 
 The purpose of this assignment is to give you practice coding in R and to help reinforce your understanding of the *t* distribution.
 
-Please go to the `BIO365` Git repository you created for a previous assignment. Create a directory called `Assignment-17`. As you work through this assignment, please put your R scripts in that directory. Read the instructions carefully for each problem listed below. For each of the problems, you should write an R script called `X.R`, but replace `X` with the problem number. For example, for problem 1, the R script would be named `1.R`. **Each of these scripts should load any R libraries that you need and should download data (using the `read_csv` function), if applicable. Please do not store any of the CSV files in your Git repository.**
+Please go to the `BIO365` Git repository you created for a previous assignment. Create a directory called `Assignment-18`. As you work through this assignment, please put your R scripts in that directory. Read the instructions carefully for each problem listed below. For each of the problems, you should write an R script called `X.R`, but replace `X` with the problem number. For example, for problem 1, the R script would be named `1.R`. **Each of these scripts should load any R libraries that you need and should download data (using the `read_csv` function), if applicable. Please do not store any of the CSV files in your Git repository.**
 
 ### Getting Started
 
